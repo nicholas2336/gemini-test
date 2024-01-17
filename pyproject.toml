@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "gemini-test"
+version = "0.1.0"
+description = ""
+authors = ["Nicholas A <bobby.nicholas23@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+google-generativeai = "^0.3.2"
+python-dotenv = "^1.0.0"
+ipython = "^8.20.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
